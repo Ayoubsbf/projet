@@ -1,0 +1,98 @@
+*{
+    margin:0; padding:0;
+}
+body{
+    overflow-X: hidden;
+}
+#logo{
+    width:90px; height:70px;
+    margin:5px;
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header ul li{
+    margin: 1.5%;
+}
+#left{
+    width:70%; float:left;
+    height:90%;
+}
+#right{
+    width:30%; float:right;
+    height:90vh;
+}
+#img1{
+    width:100%; height:300px;
+}
+#left h1{
+    margin:20px 10px;
+}
+#left p{
+    padding:10px; text-align:justify
+}
+#right ul{
+    background-color:gray;
+    padding:10px; width:200px;
+     margin:auto; margin-bottom:20px;
+}
+#right ul li{
+    list-style-type:none;
+    font-family:sans-serif;
+}
+#right ul li{
+    color:rgb(0, 0, 0);font-size:20px;
+}
+#right h3{
+    margin:10px;
+}
+#last_div{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: tahoma, arial, helvetica;
+}
+#last_div{
+    width: 80%;
+    height: 20%;
+    margin:20px auto;
+    margin-bottom:40px;
+}
+#last_div div{
+    width:300px;  position: relative;
+}
+#last_div div a{
+    position:absolute;
+    right:0; bottom:-10%;
+}
+#last_div div img{
+    width:100%; height:300px
+}
+footer{
+    background-color: rgb(129, 124, 124);
+    border:10px solid rgb(129, 124, 124);
+    
+    bottom:0; width:100%; height:30px;
+    line-height:30px;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+footer div{
+    justify-content: space-around;
+    display: flex;
+}
